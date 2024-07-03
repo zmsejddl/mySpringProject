@@ -24,13 +24,15 @@ public class Pokemon {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	
+	private String name;
+	
 	private String type;
 	
-	private Integer height;
+	private Double height;
 	
 	private String classification;
 	
-	private Integer weight;
+	private Double weight;
 	
 	private String characteristic; 
 	

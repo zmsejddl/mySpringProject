@@ -1,0 +1,15 @@
+<h2>포켓몬 리스트 화면</h2>
+<table>
+	<thead>
+		<tr>
+			<th>이름</th>
+			<th>타입</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr th:each="pokemon : ${pokemonList}">
+			<td th:text="${pokemon.name}"></td>
+			<td th:text="${pokemon.type}"></td>
+		</tr>
+	</tbody>
+</table>
