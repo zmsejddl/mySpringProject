@@ -1,4 +1,6 @@
-package com.mysite.myProject.Pokemon;
+package com.mysite.myProject.PStatus;
+
+import com.mysite.myProject.Pokemon.Pokemon;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

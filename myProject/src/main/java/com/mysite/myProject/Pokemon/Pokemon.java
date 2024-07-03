@@ -3,6 +3,8 @@ package com.mysite.myProject.Pokemon;
 import java.time.LocalDateTime;
 import java.util.List;
 
+import com.mysite.myProject.PStatus.Status;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
